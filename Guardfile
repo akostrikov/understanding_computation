@@ -1,3 +1,3 @@
 guard :shell do
-  watch(/.*/) { `ruby chapter3.rb` } # TODO: Refactor.
+  watch(/.*/) { `ruby chapter2_rework.rb` } # TODO: Refactor.
 end
