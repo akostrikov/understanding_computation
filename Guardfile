@@ -1,3 +1,3 @@
 guard :shell do
-  watch(/.*/) { `ruby chapter2_rework.rb` } # TODO: Refactor.
+  watch(/.*/) { |f| `ruby ./#{f.first}` if f.first =~ /\.rb/ }
 end
