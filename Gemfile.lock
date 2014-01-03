@@ -40,4 +40,5 @@ PLATFORMS
 
 DEPENDENCIES
   guard-shell
+  pry
   treetop
